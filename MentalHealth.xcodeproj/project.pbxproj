@@ -15,6 +15,7 @@
 		4B0871B72754068800B5CBED /* MentalHealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0871B62754068800B5CBED /* MentalHealthUITests.swift */; };
 		4B0871B92754068800B5CBED /* MentalHealthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0871B82754068800B5CBED /* MentalHealthUITestsLaunchTests.swift */; };
 		4B0871C6275413C500B5CBED /* RestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0871C5275413C500B5CBED /* RestView.swift */; };
+		4B0871C82754170A00B5CBED /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0871C72754170A00B5CBED /* StatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		4B0871B62754068800B5CBED /* MentalHealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthUITests.swift; sourceTree = "<group>"; };
 		4B0871B82754068800B5CBED /* MentalHealthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4B0871C5275413C500B5CBED /* RestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestView.swift; sourceTree = SOURCE_ROOT; };
+		4B0871C72754170A00B5CBED /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		4B08719A2754068600B5CBED /* MentalHealth */ = {
 			isa = PBXGroup;
 			children = (
+				4B0871C72754170A00B5CBED /* StatsView.swift */,
 				4B0871C5275413C500B5CBED /* RestView.swift */,
 				4B08719B2754068600B5CBED /* MentalHealthApp.swift */,
 				4B08719D2754068600B5CBED /* ContentView.swift */,
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B0871C82754170A00B5CBED /* StatsView.swift in Sources */,
 				4B08719E2754068600B5CBED /* ContentView.swift in Sources */,
 				4B0871C6275413C500B5CBED /* RestView.swift in Sources */,
 				4B08719C2754068600B5CBED /* MentalHealthApp.swift in Sources */,
