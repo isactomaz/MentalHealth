@@ -18,6 +18,7 @@
 		4B0871C82754170A00B5CBED /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0871C72754170A00B5CBED /* StatsView.swift */; };
 		4B0871CA2754183F00B5CBED /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0871C92754183F00B5CBED /* TestView.swift */; };
 		4B0871CE2754195300B5CBED /* BasicUserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0871CD2754195300B5CBED /* BasicUserInfoView.swift */; };
+		4B0871D027541A4600B5CBED /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0871CF27541A4600B5CBED /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		4B0871C72754170A00B5CBED /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = SOURCE_ROOT; };
 		4B0871C92754183F00B5CBED /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = SOURCE_ROOT; };
 		4B0871CD2754195300B5CBED /* BasicUserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicUserInfoView.swift; sourceTree = SOURCE_ROOT; };
+		4B0871CF27541A4600B5CBED /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		4B08719A2754068600B5CBED /* MentalHealth */ = {
 			isa = PBXGroup;
 			children = (
+				4B0871CF27541A4600B5CBED /* HomeView.swift */,
 				4B0871CD2754195300B5CBED /* BasicUserInfoView.swift */,
 				4B0871C92754183F00B5CBED /* TestView.swift */,
 				4B0871C72754170A00B5CBED /* StatsView.swift */,
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B0871C82754170A00B5CBED /* StatsView.swift in Sources */,
+				4B0871D027541A4600B5CBED /* HomeView.swift in Sources */,
 				4B0871CA2754183F00B5CBED /* TestView.swift in Sources */,
 				4B0871CE2754195300B5CBED /* BasicUserInfoView.swift in Sources */,
 				4B08719E2754068600B5CBED /* ContentView.swift in Sources */,
