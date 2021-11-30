@@ -51,13 +51,13 @@
 		4B0871B22754068800B5CBED /* MentalHealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentalHealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B0871B62754068800B5CBED /* MentalHealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthUITests.swift; sourceTree = "<group>"; };
 		4B0871B82754068800B5CBED /* MentalHealthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		4B0871C5275413C500B5CBED /* RestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestView.swift; sourceTree = SOURCE_ROOT; };
-		4B0871C72754170A00B5CBED /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = SOURCE_ROOT; };
-		4B0871C92754183F00B5CBED /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = SOURCE_ROOT; };
-		4B0871CD2754195300B5CBED /* BasicUserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicUserInfoView.swift; sourceTree = SOURCE_ROOT; };
-		4B0871CF27541A4600B5CBED /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = SOURCE_ROOT; };
-		4B0871D127541BBE00B5CBED /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = SOURCE_ROOT; };
-		4B0871D327541D8200B5CBED /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = SOURCE_ROOT; };
+		4B0871C5275413C500B5CBED /* RestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RestView.swift; path = MentalHealth/Views/RestView.swift; sourceTree = SOURCE_ROOT; };
+		4B0871C72754170A00B5CBED /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatsView.swift; path = MentalHealth/Views/StatsView.swift; sourceTree = SOURCE_ROOT; };
+		4B0871C92754183F00B5CBED /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestView.swift; path = MentalHealth/Views/TestView.swift; sourceTree = SOURCE_ROOT; };
+		4B0871CD2754195300B5CBED /* BasicUserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BasicUserInfoView.swift; path = MentalHealth/Views/BasicUserInfoView.swift; sourceTree = SOURCE_ROOT; };
+		4B0871CF27541A4600B5CBED /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = MentalHealth/Views/HomeView.swift; sourceTree = SOURCE_ROOT; };
+		4B0871D127541BBE00B5CBED /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = MentalHealth/Views/ProfileView.swift; sourceTree = SOURCE_ROOT; };
+		4B0871D327541D8200B5CBED /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppTabView.swift; path = MentalHealth/Views/AppTabView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,13 +111,6 @@
 				4B73CE552755AA5700193F61 /* ViewModels */,
 				4B73CE542755AA3700193F61 /* Views */,
 				4B73CE532755AA2800193F61 /* Models */,
-				4B0871D327541D8200B5CBED /* AppTabView.swift */,
-				4B0871D127541BBE00B5CBED /* ProfileView.swift */,
-				4B0871CF27541A4600B5CBED /* HomeView.swift */,
-				4B0871CD2754195300B5CBED /* BasicUserInfoView.swift */,
-				4B0871C92754183F00B5CBED /* TestView.swift */,
-				4B0871C72754170A00B5CBED /* StatsView.swift */,
-				4B0871C5275413C500B5CBED /* RestView.swift */,
 				4B08719B2754068600B5CBED /* MentalHealthApp.swift */,
 				4B08719D2754068600B5CBED /* ContentView.swift */,
 				4B08719F2754068800B5CBED /* Assets.xcassets */,
@@ -161,6 +154,13 @@
 		4B73CE542755AA3700193F61 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4B0871D327541D8200B5CBED /* AppTabView.swift */,
+				4B0871D127541BBE00B5CBED /* ProfileView.swift */,
+				4B0871CF27541A4600B5CBED /* HomeView.swift */,
+				4B0871CD2754195300B5CBED /* BasicUserInfoView.swift */,
+				4B0871C92754183F00B5CBED /* TestView.swift */,
+				4B0871C72754170A00B5CBED /* StatsView.swift */,
+				4B0871C5275413C500B5CBED /* RestView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
