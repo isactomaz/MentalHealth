@@ -108,6 +108,9 @@
 		4B08719A2754068600B5CBED /* MentalHealth */ = {
 			isa = PBXGroup;
 			children = (
+				4B73CE552755AA5700193F61 /* ViewModels */,
+				4B73CE542755AA3700193F61 /* Views */,
+				4B73CE532755AA2800193F61 /* Models */,
 				4B0871D327541D8200B5CBED /* AppTabView.swift */,
 				4B0871D127541BBE00B5CBED /* ProfileView.swift */,
 				4B0871CF27541A4600B5CBED /* HomeView.swift */,
@@ -146,6 +149,27 @@
 				4B0871B82754068800B5CBED /* MentalHealthUITestsLaunchTests.swift */,
 			);
 			path = MentalHealthUITests;
+			sourceTree = "<group>";
+		};
+		4B73CE532755AA2800193F61 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4B73CE542755AA3700193F61 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4B73CE552755AA5700193F61 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
