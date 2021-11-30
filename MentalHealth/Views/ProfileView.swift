@@ -8,23 +8,53 @@
 import SwiftUI
 
 struct ProfileView: View {
+//    @State private var selectedThemeMode = ThemeMode.ligth
+    @State private var date = Date()
+    
+    @State private var biometricsLock = true
+    @State private var shareStats = true
+    @State private var dailyAccountabilityReminder = true
+
     var body: some View {
         ScrollView {
             VStack {
                 BasicUserInfoView(content: "Isac")
             }
             Spacer()
-
+            
             VStack {
-                Text("List")
+                Toggle(isOn: $biometricsLock) {
+                    Text("Biometrics lock")
+                        .foregroundColor(.blue)
+                }
+                
+                Toggle(isOn: $shareStats) {
+                    Text("Share stats")
+                        .foregroundColor(.blue)
+                }
+                
+                Toggle(isOn: $dailyAccountabilityReminder) {
+                    Text("Daily accountability reminder")
+                        .foregroundColor(.blue)
+                }
             }
             .padding()
 
             Spacer()
 
-            Text("Date Picker")
-
-            Text("Picker Theme")
+            DatePicker(
+                "Alarm",
+                selection: $date,
+                displayedComponents: [.hourAndMinute]
+            )
+                .padding()
+            
+//            Picker("ThemeMode", selection: $selectedThemeMode) {
+//                Text("Ligth").tag(ThemeMode.ligth)
+//                Text("Dark").tag(ThemeMode.dark)
+//            }
+//            .pickerStyle(.segmented)
+//            .padding()
         }
         .background(
             Image("background")

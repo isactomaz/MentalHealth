@@ -8,12 +8,19 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State private var date = Date()
+
     var body: some View {
         VStack {
             BasicUserInfoView(content: "Hello, Isac!")
             Spacer()
             ScrollView {
-                Text("Calendar")
+                DatePicker(
+                    "Start Date",
+                    selection: $date,
+                    displayedComponents: [.date]
+                )
+                    .datePickerStyle(.graphical)
 
                 Spacer()
                 Button(action: {} ) {

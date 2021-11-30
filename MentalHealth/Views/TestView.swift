@@ -9,7 +9,19 @@ import SwiftUI
 
 struct TestView: View {
     var body: some View {
-        Text("Test")
+        VStack {
+            Spacer()
+            Text("Test")
+            Spacer()
+        }
+        .background(
+            Image("background")
+                .resizable()
+                .scaledToFill()
+//                .ignoresSafeArea()
+        )
+//        .padding()
+        
     }
 }
 
